@@ -13,3 +13,8 @@ A very simple and limited coverflow-like UI component
         self.coverflowView.headingText = "Top title"
         self.coverflowView.contentText = "Bottom description"
         
+After you set the nextViewContent, and when user is ready to see the next content, call:
+
+        self.coverflowView.presentNext()
+        
+Implement delegate methods for touch callbacks.
